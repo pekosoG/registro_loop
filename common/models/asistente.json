@@ -1,0 +1,109 @@
+{
+  "name": "asistente",
+  "plural": "asistentes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "apellidom": {
+      "type": "string",
+      "required": true
+    },
+    "apellidop": {
+      "type": "string",
+      "required": true
+    },
+    "beca": {
+      "type": "string"
+    },
+    "calle": {
+      "type": "string"
+    },
+    "celular": {
+      "type": "string"
+    },
+    "colonia": {
+      "type": "string"
+    },
+    "comentarios": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "string",
+      "required": true
+    },
+    "cp": {
+      "type": "string"
+    },
+    "especialidad": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string"
+    },
+    "fecha_registro": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_update": {
+      "type": "date",
+      "required": true
+    },
+    "municipio": {
+      "type": "string"
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "numero_ext": {
+      "type": "string"
+    },
+    "numero_int": {
+      "type": "string"
+    },
+    "pais": {
+      "type": "string"
+    },
+    "procedencia": {
+      "type": "string"
+    },
+    "profesion": {
+      "type": "string"
+    },
+    "rfc": {
+      "type": "string"
+    },
+    "rol": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "virtual": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "impresiones": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

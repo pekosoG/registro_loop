@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "mydb",
+    "connector": "mysql",
+    "database":"registro_loop",
+    "host":"localhost",
+    "password":"root",
+    "username":"root",
+    "port":3306
+  }
+}

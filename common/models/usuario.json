@@ -1,0 +1,45 @@
+{
+  "name": "usuario",
+  "plural": "usuarios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fecha_registro": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_update": {
+      "type": "date",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "tipo_acceso": {
+      "type": "string",
+      "required": true,
+      "default": "C"
+    },
+    "ultimo_login": {
+      "type": "date",
+      "required": true
+    },
+    "usuario": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
