@@ -36,19 +36,19 @@
     "public": false
   },
   "asistente": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "industria": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "becas": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   },
   "usuario": {
-    "dataSource": "db",
+    "dataSource": "mysql",
     "public": true
   }
 }

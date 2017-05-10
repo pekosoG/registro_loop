@@ -4,11 +4,7 @@
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true,
-    "mysql":{
-      "schema":"registro_loop",
-      "table":"industria"
-    }
+    "validateUpsert": true
   },
   "properties": {
     "celular": {
