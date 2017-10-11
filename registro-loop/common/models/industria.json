@@ -1,0 +1,49 @@
+{
+  "name": "industria",
+  "plural": "industrias",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "celular": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "string",
+      "required": true
+    },
+    "colegio": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "fecha_registro": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_update": {
+      "type": "date",
+      "required": true
+    },
+    "nombre_contacto": {
+      "type": "string",
+      "required": true
+    },
+    "razon_social": {
+      "type": "string",
+      "required": true
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

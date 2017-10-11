@@ -1,0 +1,14 @@
+version: '2'
+services:
+  node-service:
+    build: registro-loop/
+    ports:
+      - 3000:3000
+    depends_on:
+      - mysql-service
+  mysql-service:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - ~/Documents:/var/lib/mysql

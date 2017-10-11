@@ -1,0 +1,41 @@
+{
+  "name": "becas",
+  "plural": "becas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cantidad": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "costo": {
+      "type": "number",
+      "default": 0
+    },
+    "especial": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "fecha_registro": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_update": {
+      "type": "date",
+      "required": true
+    },
+    "id_industria": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
